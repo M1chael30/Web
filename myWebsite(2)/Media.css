@@ -1,0 +1,79 @@
+/* ==========Media========== */
+@media (max-width:1199px){
+ 
+ .aside{
+  left:-270px;
+ }
+ 
+ .aside.open{
+  left: 0;
+ }
+
+ .section .container{
+  padding-top: 70px;
+ }
+
+ .aside .nav-toggler{
+  display: flex;
+  left: 30px;
+ }
+ 
+ .aside .nav-toggler.open{
+  left: 300px;
+ }
+ 
+ .section{
+  left: 0;
+ }
+  
+ .section.open{
+  left: 270px;
+ }
+
+ .main-content{
+  padding-left: 0;
+ }
+ 
+ .about .about-content .personal-info .info-item p span{
+  display: block;
+  margin-left: 0;
+ }
+}
+
+@media (max-width:991px){
+ 
+ .home .home-img{
+  display: none;
+ }
+ 
+ .contact .contact-info-item,
+ .portfolio .portfolio-item,
+ .service .service-item{
+  flex: 0 0 50%;
+  max-width: 50%;
+ } 
+ 
+ .home .home-info,
+ .about .about-content .skills,
+ .about .about-content .personal-info{
+  flex: 0 0 100%;
+  max-width: 100%;
+ }
+}
+
+@media (max-width:767px){
+
+ .about .about-content .education,
+ .about .about-content .Experience,
+ .service .service-item,
+ .about .about-content .personal-info .info-item,
+ .portfolio .portfolio-item,
+ .about .about-content .skills,
+ .contact .contact-info-item,
+ .contact .contact-form .col-6,
+ .about .about-content .personal-info{
+  flex: 0 0 100%;
+  max-width: 100%;
+ }
+}
+/* ==========Media========== */
